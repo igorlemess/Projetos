@@ -1,0 +1,157 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction:column;
+    background-color: #E1E8EB;
+}
+.header{
+    display:flex;
+    height: 50px;
+    background-color: #7952B3; 
+    padding-right: 30px;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+
+    gap: 20px;
+    color: white;
+}
+
+a{
+    font-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.main-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #343A40;
+    font-family: Helvetica;
+    color: #FFC107;
+    font-size: 200%;
+
+    gap: 40px;
+}
+
+.main-sub{
+    font-size: smaller;
+}
+
+#tema{
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:white;
+}
+
+.content{
+    display:flex;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.conceito{
+    height: 370px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.titulo{
+    color: #7952B3;
+}
+
+.texto{
+    color:#343A40;
+    font-size: 20px;
+}
+
+.tipos{
+    background-color: #343A40;
+    display: flex;
+    flex-direction: column;
+    color:#E1E8EB;
+    padding-left: 50px;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+
+.comp{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.linha{
+    display: flex;
+    gap:50px;
+}
+
+#resume{
+    width:800px;
+    font-size: 30px;
+}
+
+.funcionamento{
+    flex-direction: column;
+    height:1000px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#7952B3;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:400px;
+}
+
+.fatores{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: #343A40;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+
+    gap:40px;
+}
+
+.fator{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #E1E8EB;
+    width:600px;
+}
+
+.imagem{
+    display:flex;
+    justify-content:center;
+    height:260px;
+    width:500px;
+    flex-shrink:2
+}
